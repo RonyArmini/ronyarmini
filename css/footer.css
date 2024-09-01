@@ -1,0 +1,76 @@
+.footer {
+    background: #000000;
+}
+
+.footer-container {
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    line-height: 1.33;
+    color: #cccccc;
+}
+
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    width: 200%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+form div {
+    padding: 5px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 300px;
+}
+
+form .btn-enviar {
+    margin-top: 10px;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #b6f829;
+    color: #000000;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.footer-copy {
+    grid-column: 1 / -1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
+}
+@media (max-width: 800px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 40px;;
+    }
+    .footer-contato li {
+        font-size: 1.5rem;
+    }
+}

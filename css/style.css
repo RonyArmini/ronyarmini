@@ -1,0 +1,17 @@
+@import "./global.css";
+@import "./header.css";
+@import "./introducao.css";
+@import "./experiencia.css";
+@import "./formacao.css";
+@import "./portifolio.css";
+@import "./footer.css";
+
+#link-topo {
+    text-decoration: none;
+    color: black;
+    background-color: #b6f829;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
